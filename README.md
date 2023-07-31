@@ -8,8 +8,6 @@ Ini adalah proyek [Next.js](https://nextjs.org/) di-bootstrap dengan [`create-ne
 - [Tailwindcss](https://tailwindcss.com/)
 - [NextAuth.js](https://next-auth.js.org/getting-started/introduction/)
 - [Axios](https://axios-http.com/docs/intro/)
-- [SWR](https://swr.vercel.app/)
-- [Zustand](https://docs.pmnd.rs/zustand/getting-started/introduction/)
 
 ## Fitur
 
@@ -128,7 +126,7 @@ Pada templat proyek ini sudah menggunakan authentikasi menggunakan [NextAuth](ht
 
 ### State Management
 
-Pada templat proyek ini sudah menggunakan implementasi `State Management` menggunakan [Zustand](https://docs.pmnd.rs/zustand/getting-started/introduction). Agar penggunaan tetap optimal, pada saat Anda ingin membuat `state` baru, perlu di ingat bahwa Anda harus meng-definisikan `Interface` dan `Type` terlebih dahulu pada folder `/src/utils`. Kemudian Anda dapat meng-definisikan apa saja yang Anda butuhkan untuk `state` tersebut pada folder `/src/store`.
+Pada templat proyek ini sudah menggunakan implementasi `State Management` menggunakan React Context. Agar penggunaan tetap optimal, pada saat Anda ingin membuat `state` baru, perlu di ingat bahwa Anda harus meng-definisikan `Interface` terlebih dahulu pada folder `/src/interface`. Kemudian Anda dapat meng-definisikan apa saja yang Anda butuhkan untuk `state` tersebut pada folder `/src/context`.
 
 ### Kustomisasi React Hooks
 
